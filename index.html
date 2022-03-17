@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/454dd3bf54.js" crossorigin="anonymous"></script>
+    <title>Coffees</title>
+</head>
+<body>
+    <header id="header">
+        <img src="https://i.pinimg.com/564x/0c/db/49/0cdb49fd8c091256b3a6bcfb2e6884e3.jpg" alt="" id="header-img"></img>
+        <nav id="nav-bar">
+            <ul>
+                <li><a href="#about-us" class="nav-link">About us</a></li>
+                <li><a href="#coffees" class="nav-link">Coffees</a></li>
+                <li><a href="#form" class="nav-link">Subscribe</a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <div id="about-us" class="section colored">
+        <h2>ABOUT US</h2>
+        <p>Recognized as Roaster of the Year in 2020—a national once-in-a-lifetime award given by Roast Magazine—Coffee Roasters Co. is proud to have put premiere coffee on the map in San Diego.</p>
+        <iframe width="420" height="315" id="video" src="https://www.youtube.com/embed/naQsBCFgWAI"></iframe>
+    </div>  
+    
+    <div id="coffees" class="section white">
+        <h2>COFFEES</h2>
+        <div id="coffee-adv">
+            <div class=item>
+                <h4>HIGH QUALITY</h4>
+                <p>The relationships we have with our importing and producing partners allow us to feature great coffees year after year - whether that’s coffee from a new farm, a new varietal or a special lot from an existing relationship.</p>
+            </div>
+            <div class=item>
+                <h4>NEW COFFEES EVERY MONTH</h4>
+                <p>Every day, we discover exciting coffees from all over the world, so we rotate our coffees every four weeks to give you something new!</p>
+            </div>
+            <div class=item>
+                <h4>FRESH ROASTED</h4>
+                <p>Coffees are roasted every Sunday and Wednesday in Brooklyn, and our roasting team builds on the quality of the beans and the hard work of the farmers, highlighting the nuances and sweetness in each coffee.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section colored">
+        <form action="https://www.freecodecamp.com/email-submit" method="get" id="form"><h2>SUBSCRIBE</h2>
+            <div class="form-area">
+                <label for="name" id="name-label">Your name</label>
+                <input type="text" id="name" name="name" placeholder="Type name here" required>
+                <br>
+                <label for="email" id="email-label" >Your Email</label>
+                <input type="email" id="email" name="email" placeholder="Type email here" required>
+                <br>
+            
+                <input id="submit" type="submit" value="Submit" class="btn" />
+            </div>
+        </form> 
+    </div>
+    <!-- Footer -->
+
+    <footer id="footer" class="section white">
+        <div class="container-footer">
+            <i class="social-icon fab fa-twitter"></i>
+            <i class="social-icon fab fa-facebook-f"></i>
+            <i class="social-icon fab fa-instagram"></i>
+            <i class="social-icon fas fa-envelope"></i>
+            <p>© Copyright 2022 Coffee Roasters Co.</p>
+        </div> 
+    </footer>
+</body>
+</html>
